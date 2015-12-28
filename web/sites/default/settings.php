@@ -245,6 +245,7 @@ $databases = array();
  * @endcode
  */
 $config_directories = array();
+$config_directories[CONFIG_SYNC_DIRECTORY] = DRUPAL_ROOT . '/../config/sync';
 
 /**
  * Settings:
@@ -285,7 +286,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'E5AwX_IZ_AoTZfLsHzZe9iaOeGvBSK6glfsKHHcOG3eQAjMCr8WVO3Oc-sF6-IjpMG2Q-4dlFA';
 
 /**
  * Deployment identifier.
@@ -712,3 +713,15 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
+$databases['default']['default'] = array (
+  'database' => 'spicemixer_server',
+  'username' => 'root',
+  'password' => '',
+  'prefix' => '',
+  'host' => '127.0.0.1',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_tTGiHEKSxw_smx7F7RQCNHE3s5fadYNrDOuwg-gRQzaiNM5eTRGX7Symj2eYwoVhjYiN1kz9NQ/sync';
