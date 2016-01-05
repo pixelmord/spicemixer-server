@@ -1,0 +1,21 @@
+uuid: b172e2e2-6702-4b95-8407-7ab4dff0433f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_description
+    - node.type.cooking_recipe
+  module:
+    - text
+id: node.cooking_recipe.field_short_description
+field_name: field_short_description
+entity_type: node
+bundle: cooking_recipe
+label: 'Short Description'
+description: 'A short description for the recipe.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

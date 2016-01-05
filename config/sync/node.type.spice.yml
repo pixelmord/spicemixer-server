@@ -1,0 +1,17 @@
+uuid: 728d73a7-f02f-42b5-9741-65e84faf7999
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Spice
+type: spice
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: ca11cb80-bd90-4f08-b100-a625581afcde
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cooking_recipe
+id: node.cooking_recipe.promote
+field_name: promote
+entity_type: node
+bundle: cooking_recipe
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: 082a999b-6668-47c6-8300-c81350aeecd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spice
+id: node.spice.title
+field_name: title
+entity_type: node
+bundle: spice
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

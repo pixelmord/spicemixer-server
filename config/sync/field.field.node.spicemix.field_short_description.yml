@@ -1,0 +1,21 @@
+uuid: 281c8843-3a04-4298-8100-a7906b63dc8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_description
+    - node.type.spicemix
+  module:
+    - text
+id: node.spicemix.field_short_description
+field_name: field_short_description
+entity_type: node
+bundle: spicemix
+label: 'Short Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

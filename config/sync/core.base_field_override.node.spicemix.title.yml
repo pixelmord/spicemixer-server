@@ -1,0 +1,18 @@
+uuid: 40198b99-e418-4b02-ae00-e5809f48fffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spicemix
+id: node.spicemix.title
+field_name: title
+entity_type: node
+bundle: spicemix
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

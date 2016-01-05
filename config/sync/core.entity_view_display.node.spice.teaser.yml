@@ -1,0 +1,17 @@
+uuid: c59cda51-13ea-4501-9407-075a1d7c5e1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.spice
+  module:
+    - user
+id: node.spice.teaser
+targetEntityType: node
+bundle: spice
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

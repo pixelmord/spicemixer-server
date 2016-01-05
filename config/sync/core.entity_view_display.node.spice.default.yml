@@ -1,0 +1,16 @@
+uuid: e84befe7-495d-4a1e-951c-28bd8a41cccb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spice
+  module:
+    - user
+id: node.spice.default
+targetEntityType: node
+bundle: spice
+mode: default
+content:
+  links:
+    weight: 100
+hidden: {  }

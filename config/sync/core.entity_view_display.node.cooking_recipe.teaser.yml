@@ -1,0 +1,17 @@
+uuid: 3019d745-83a5-4eca-b300-f5819883a495
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.cooking_recipe
+  module:
+    - user
+id: node.cooking_recipe.teaser
+targetEntityType: node
+bundle: cooking_recipe
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }

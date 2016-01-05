@@ -1,0 +1,9 @@
+uuid: 06b78ad7-b9fc-49f3-b821-33d2cdccb56f
+langcode: en
+status: true
+dependencies: {  }
+name: Kitchen
+vid: kitchen
+description: ''
+hierarchy: 0
+weight: 0

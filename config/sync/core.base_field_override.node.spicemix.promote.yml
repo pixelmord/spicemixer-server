@@ -1,0 +1,22 @@
+uuid: 29d6a839-f578-4bcb-9e00-c575f663fd97
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spicemix
+id: node.spicemix.promote
+field_name: promote
+entity_type: node
+bundle: spicemix
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

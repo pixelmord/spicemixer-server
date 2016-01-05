@@ -1,0 +1,24 @@
+uuid: 4a682bf3-518f-445c-8300-b9bcb1b0e424
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cooking_recipe.field_short_description
+    - node.type.cooking_recipe
+  module:
+    - text
+    - user
+id: node.cooking_recipe.default
+targetEntityType: node
+bundle: cooking_recipe
+mode: default
+content:
+  field_short_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  links:
+    weight: 100
+hidden: {  }

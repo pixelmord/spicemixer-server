@@ -699,6 +699,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+$settings['install_profile'] = 'standard';
 
 /**
  * Load local development override configuration, if available.
@@ -713,15 +714,4 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 if (file_exists(__DIR__ . '/settings.local.php')) {
   include __DIR__ . '/settings.local.php';
 }
-$databases['default']['default'] = array (
-  'database' => 'spicemixer_server',
-  'username' => 'root',
-  'password' => '',
-  'prefix' => '',
-  'host' => '127.0.0.1',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_tTGiHEKSxw_smx7F7RQCNHE3s5fadYNrDOuwg-gRQzaiNM5eTRGX7Symj2eYwoVhjYiN1kz9NQ/sync';
+

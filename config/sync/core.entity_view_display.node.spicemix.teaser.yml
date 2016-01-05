@@ -1,0 +1,17 @@
+uuid: 0ad6a4f3-d1e3-4c0c-9100-a3ea9f9c3534
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.spicemix
+  module:
+    - user
+id: node.spicemix.teaser
+targetEntityType: node
+bundle: spicemix
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden: {  }
