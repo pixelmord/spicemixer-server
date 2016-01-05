@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46d33c4f118b84c534ebb4fb25b8352c",
-    "content-hash": "26390dbb94b705c1d0440b97bb5f1dad",
+    "hash": "50bd5ac5bcd76b43e1af78750841718d",
+    "content-hash": "939d4aed0de727b5d52d97799ea5a427",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -703,6 +703,50 @@
                 "parser"
             ],
             "time": "2014-09-09 13:34:57"
+        },
+        {
+            "name": "drupal/admin_toolbar",
+            "version": "8.1.11",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/admin_toolbar.git",
+                "reference": "4ffa123d545305870741a8cd5ce554906135bfeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/toolbar": "8.*"
+            },
+            "replace": {
+                "drupal/admin_toolbar_tools": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/admin_toolbar_tools"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Anis Taktak",
+                    "homepage": "https://www.drupal.org/u/matio89"
+                }
+            ],
+            "description": "Admin Toolbar improve the default Drupal Toolbar,it lets the hover of sub menus.",
+            "homepage": "http://drupal.org/project/admin_toolbar",
+            "time": "2015-12-11 08:22:06"
         },
         {
             "name": "drupal/console",
