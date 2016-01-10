@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "50bd5ac5bcd76b43e1af78750841718d",
-    "content-hash": "939d4aed0de727b5d52d97799ea5a427",
+    "hash": "0336f9b3cab04f3d3e7d4fa52a270686",
+    "content-hash": "76ee3bfc435727aa18c06c1de8353a3d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -996,6 +996,149 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2015-12-02 14:08:29"
+        },
+        {
+            "name": "drupal/ds",
+            "version": "8.2.2",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/ds",
+                "reference": "3cb9f7c7e70154c2eced27cec99b87fe95cc4a24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/ds-8.x-2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/layout_plugin": "8.*"
+            },
+            "replace": {
+                "drupal/ds_devel": "self.version",
+                "drupal/ds_extras": "self.version",
+                "drupal/ds_switch_view_mode": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/ds_devel, drupal/ds_extras, drupal/ds_switch_view_mode",
+                "drupal/devel": "Required by drupal/ds_devel"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-2.x": "8.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bram Goffings",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Kristof De Jaeger",
+                    "homepage": "http://realize.be/",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Brecht Ceyssens",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Extend the display options for every entity type.",
+            "homepage": "https://www.drupal.org/project/ds",
+            "keywords": [
+                "Drupal",
+                "layout",
+                "php"
+            ],
+            "time": "2015-12-10 19:50:51"
+        },
+        {
+            "name": "drupal/layout_plugin",
+            "version": "8.1.0-alpha21",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/layout_plugin",
+                "reference": "02c381e9103b2a356dce09602d9c2f723a133c1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha21.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "replace": {
+                "drupal/block_page_layout": "self.version",
+                "drupal/layout_plugin_example": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/block_page_layout, drupal/layout_plugin_example",
+                "drupal/page_manager": "Required by drupal/block_page_layout"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "David Snopek"
+                },
+                {
+                    "name": "Bram Goffings"
+                },
+                {
+                    "name": "Fredrik Lassen"
+                }
+            ],
+            "description": "A registry for layout plugins.",
+            "homepage": "https://www.drupal.org/project/layout_plugin",
+            "keywords": [
+                "layout",
+                "php"
+            ],
+            "time": "2016-01-07 17:01:12"
+        },
+        {
+            "name": "drupal/restui",
+            "version": "8.1.11",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/restui",
+                "reference": "b32b5f8bf16b91fd1c65acbb61e82db7b706e127"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/restui-8.x-1.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/rest": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Provides a user interface to manage REST resources",
+            "homepage": "https://www.drupal.org/project/restui"
         },
         {
             "name": "drush/drush",
