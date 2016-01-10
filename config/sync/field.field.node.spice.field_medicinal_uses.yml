@@ -1,0 +1,21 @@
+uuid: b08cb4d6-b431-4b0d-8905-5f09faf77cb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_medicinal_uses
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_medicinal_uses
+field_name: field_medicinal_uses
+entity_type: node
+bundle: spice
+label: 'Medicinal Uses'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,25 @@
+uuid: 69aeff3b-72b6-498a-b002-2d3fa15fa3b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_combines_well_with
+    - node.type.spice
+id: node.spice.field_combines_well_with
+field_name: field_combines_well_with
+entity_type: node
+bundle: spice
+label: 'Combines well with'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      spice: spice
+    sort:
+      field: _none
+field_type: entity_reference

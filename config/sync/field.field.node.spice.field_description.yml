@@ -1,0 +1,21 @@
+uuid: a5811ee3-bf7d-455e-8000-d056e7f881ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_description
+field_name: field_description
+entity_type: node
+bundle: spice
+label: Description
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

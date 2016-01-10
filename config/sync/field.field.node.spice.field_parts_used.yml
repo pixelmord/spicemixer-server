@@ -1,0 +1,21 @@
+uuid: 150ac616-0d31-4db4-9c00-fe689ea7936e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parts_used
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_parts_used
+field_name: field_parts_used
+entity_type: node
+bundle: spice
+label: 'Parts Used'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

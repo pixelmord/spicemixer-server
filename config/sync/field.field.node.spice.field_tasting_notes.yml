@@ -1,0 +1,21 @@
+uuid: b5d0724c-0089-464e-a506-6b9ce9246cf6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tasting_notes
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_tasting_notes
+field_name: field_tasting_notes
+entity_type: node
+bundle: spice
+label: 'Tasting Notes'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

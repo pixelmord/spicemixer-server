@@ -1,0 +1,19 @@
+uuid: e7ab386d-eb9a-4173-9200-bd2d40cfde98
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_familiar_spices
+field_name: field_familiar_spices
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

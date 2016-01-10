@@ -3,14 +3,81 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.spice.field_combines_well_with
+    - field.field.node.spice.field_culinary_uses
+    - field.field.node.spice.field_description
+    - field.field.node.spice.field_familiar_spices
+    - field.field.node.spice.field_latin_name
+    - field.field.node.spice.field_medicinal_uses
+    - field.field.node.spice.field_parts_used
+    - field.field.node.spice.field_storing
+    - field.field.node.spice.field_tasting_notes
     - node.type.spice
   module:
+    - text
     - user
 id: node.spice.default
 targetEntityType: node
 bundle: spice
 mode: default
 content:
+  field_combines_well_with:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_culinary_uses:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_familiar_spices:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_latin_name:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_medicinal_uses:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_parts_used:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_storing:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_tasting_notes:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
   links:
     weight: 100
 hidden: {  }

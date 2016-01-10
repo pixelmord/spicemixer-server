@@ -1,0 +1,21 @@
+uuid: c27d5790-f135-45e6-850a-1086a85b0ea0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_culinary_uses
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_culinary_uses
+field_name: field_culinary_uses
+entity_type: node
+bundle: spice
+label: 'Culinary Uses'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

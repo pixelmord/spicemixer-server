@@ -1,0 +1,21 @@
+uuid: 7de23f1a-b723-49ac-855b-9111c9b39b3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_storing
+    - node.type.spice
+  module:
+    - text
+id: node.spice.field_storing
+field_name: field_storing
+entity_type: node
+bundle: spice
+label: Storing
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
