@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
+            "url": "https://packages.drupal.org/8"
         }
     ],
     "require": {
@@ -23,8 +23,9 @@
         "drush/drush": "~8.0",
         "drupal/console": "~0.10",
         "drupal/admin_toolbar": "8.*",
-        "drupal/ds": "8.*",
-        "drupal/restui": "8.*"
+        "drupal/restui": "8.*",
+        "drupal/elasticsearch_helper": "1.x-dev",
+        "drupal/simple_sitemap": "^2.6"
     },
     "require-dev": {
         "behat/mink": "~1.6",
