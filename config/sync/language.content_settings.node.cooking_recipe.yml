@@ -1,0 +1,16 @@
+uuid: 71e1af90-1948-4dda-b757-66e4f1042d90
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cooking_recipe
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.cooking_recipe
+target_entity_type_id: node
+target_bundle: cooking_recipe
+default_langcode: site_default
+language_alterable: false

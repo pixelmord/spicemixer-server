@@ -1,0 +1,16 @@
+uuid: b2365ab8-6d99-43ea-be2e-11aef1437b30
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.kitchen
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.kitchen
+target_entity_type_id: taxonomy_term
+target_bundle: kitchen
+default_langcode: site_default
+language_alterable: false

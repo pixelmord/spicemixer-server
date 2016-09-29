@@ -1,0 +1,16 @@
+uuid: f01d10ef-f86a-4848-b875-33de6a08855a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spicemix
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.spicemix
+target_entity_type_id: node
+target_bundle: spicemix
+default_langcode: site_default
+language_alterable: false

@@ -33,3 +33,4 @@ hidden:
   field_parts_used: true
   field_storing: true
   field_tasting_notes: true
+  langcode: true

@@ -49,6 +49,11 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
@@ -73,6 +78,8 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  translation:
+    weight: 10
   uid:
     type: entity_reference_autocomplete
     weight: 5

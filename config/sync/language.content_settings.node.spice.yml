@@ -1,0 +1,16 @@
+uuid: f31dfe3c-5c0f-493c-9dc4-2552f2e740c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.spice
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.spice
+target_entity_type_id: node
+target_bundle: spice
+default_langcode: site_default
+language_alterable: false

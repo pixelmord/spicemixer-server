@@ -80,4 +80,5 @@ content:
     type: text_default
   links:
     weight: 100
-hidden: {  }
+hidden:
+  langcode: true

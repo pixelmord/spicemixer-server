@@ -14,7 +14,7 @@ bundle: cooking_recipe
 label: 'Short Description'
 description: 'A short description for the recipe.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }
