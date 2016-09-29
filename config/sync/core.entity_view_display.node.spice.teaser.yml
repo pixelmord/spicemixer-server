@@ -4,6 +4,15 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.spice.field_combines_well_with
+    - field.field.node.spice.field_culinary_uses
+    - field.field.node.spice.field_description
+    - field.field.node.spice.field_familiar_spices
+    - field.field.node.spice.field_latin_name
+    - field.field.node.spice.field_medicinal_uses
+    - field.field.node.spice.field_parts_used
+    - field.field.node.spice.field_storing
+    - field.field.node.spice.field_tasting_notes
     - node.type.spice
   module:
     - user
@@ -14,4 +23,13 @@ mode: teaser
 content:
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_combines_well_with: true
+  field_culinary_uses: true
+  field_description: true
+  field_familiar_spices: true
+  field_latin_name: true
+  field_medicinal_uses: true
+  field_parts_used: true
+  field_storing: true
+  field_tasting_notes: true
