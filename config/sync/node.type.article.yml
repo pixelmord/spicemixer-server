@@ -1,7 +1,14 @@
 uuid: 7c34874c-7ad6-4202-8813-195af0385c0e
-langcode: en
+langcode: de
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 name: Article
 type: article
 description: 'Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'

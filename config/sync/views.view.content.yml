@@ -1,5 +1,5 @@
 uuid: cdbd8733-fa93-49d6-8c00-db290ebcb994
-langcode: en
+langcode: de
 status: true
 dependencies:
   module:
@@ -371,7 +371,7 @@ display:
           group_type: group
           admin_label: ''
           operator: '='
-          value: true
+          value: '1'
           group: 1
           exposed: true
           expose:

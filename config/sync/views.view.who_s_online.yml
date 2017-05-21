@@ -1,5 +1,5 @@
 uuid: fe9e864e-6096-4143-be00-cc8daccbb12a
-langcode: en
+langcode: de
 status: true
 dependencies:
   module:
@@ -97,7 +97,7 @@ display:
           entity_field: name
       filters:
         status:
-          value: true
+          value: '1'
           table: users_field_data
           field: status
           id: status

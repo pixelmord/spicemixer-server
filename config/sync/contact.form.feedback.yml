@@ -1,5 +1,5 @@
 uuid: 1f1809a5-a391-4ae8-a900-e8eeaa3ceb84
-langcode: en
+langcode: de
 status: true
 dependencies: {  }
 id: feedback
@@ -8,3 +8,5 @@ recipients:
   - admin@example.com
 reply: ''
 weight: 0
+message: 'Your message has been sent.'
+redirect: ''

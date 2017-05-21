@@ -1,5 +1,5 @@
 uuid: 09590ebe-565b-469f-b35d-931c2324a615
-langcode: en
+langcode: de
 status: true
 dependencies:
   config:
@@ -183,7 +183,7 @@ display:
           group_type: group
           admin_label: ''
           operator: '='
-          value: true
+          value: '1'
           group: 1
           exposed: false
           expose:

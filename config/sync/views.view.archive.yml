@@ -1,5 +1,5 @@
 uuid: d9b27d7a-7345-4aa7-9d00-bcd9ca6c7b14
-langcode: en
+langcode: de
 status: false
 dependencies:
   config:
@@ -107,7 +107,7 @@ display:
           id: status
           table: node_field_data
           field: status
-          value: true
+          value: '1'
           group: 0
           expose:
             operator: '0'

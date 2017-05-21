@@ -1,6 +1,6 @@
 {
-    "name": "spicemixer",
-    "description": "Spixemixer server",
+    "name": "pixelmord/spicemixer",
+    "description": "Spixemixer.io backend",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -25,7 +25,10 @@
         "drupal/admin_toolbar": "8.*",
         "drupal/restui": "8.*",
         "drupal/elasticsearch_helper": "1.x-dev",
-        "drupal/simple_sitemap": "^2.6"
+        "drupal/simple_sitemap": "^2.6",
+        "drupal/jsonapi": "dev-1.x",
+        "drupal/devel": "^1.0@alpha",
+        "drupal/cors": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.6",

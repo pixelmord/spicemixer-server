@@ -7,4 +7,4 @@ timezone:
     configurable: true
     warn: false
     default: 0
-langcode: en
+langcode: de
