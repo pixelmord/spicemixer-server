@@ -23,6 +23,7 @@ mode: teaser
 content:
   links:
     weight: 100
+    region: content
 hidden:
   field_combines_well_with: true
   field_culinary_uses: true
