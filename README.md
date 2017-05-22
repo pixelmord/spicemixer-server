@@ -1,1 +1,3 @@
-# spicemixer-server
+# spicemixer Drupal backend
+
+
